@@ -1,17 +1,15 @@
-import tensorflow as tf
-import sys
 import os
+import sys
 import scipy
 import _thread
-import threading
-import pandas as pd
-import numpy as np
-from skimage import io
-from scipy import ndimage
-import threading
-import scipy
 import scipy.io
+import threading
+import numpy as np
+import pandas as pd
+from skimage import io
 from io import BytesIO
+import tensorflow as tf
+from scipy import ndimage
 
 class MultiThrdLoader(object):
 
